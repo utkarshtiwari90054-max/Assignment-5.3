@@ -1,0 +1,168 @@
+/* Font pairing (Google Fonts):
+   Headings: Fraunces (serif, variable weights)
+   Body:     Source Sans 3 (sans-serif) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans 3", Arial, sans-serif;   /* body font */
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #2b2a33;
+  background: #faf6f0;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+
+/* Headings use the second family */
+h1, h2, h3, h4, h5 {
+  font-family: "Fraunces", Georgia, serif;           /* heading font */
+  color: #3b1f4a;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.lead {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+section {
+  margin-bottom: 48px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #c9a227;
+}
+
+/* ---------- Section 1: Heading styles ---------- */
+.demo { margin-bottom: 14px; }
+
+.h-xl {
+  font-size: 2.6rem;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.h-lg {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.h-md {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;        /* wide spacing */
+}
+
+.h-sm {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.h-underline {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #c9a227;
+  text-underline-offset: 6px;
+}
+
+/* ---------- Section 2: Paragraph styles ---------- */
+#paragraphs h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 20px 0 6px;
+}
+
+.tight { line-height: 1.2; }
+.comfy { line-height: 1.7; }
+
+.align-left    { text-align: left; }
+.align-center  { text-align: center; }
+.align-right   { text-align: right; }
+.align-justify { text-align: justify; }
+
+#paragraphs p { margin-bottom: 8px; }
+
+/* ---------- Section 3: Text emphasis ---------- */
+#emphasis p { margin-bottom: 16px; }
+
+strong { font-weight: 700; }
+em     { font-style: italic; }
+
+.underline {
+  text-decoration: underline;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #8a8794;
+}
+
+.over {
+  text-decoration: overline;
+}
+
+.spaced {
+  letter-spacing: 0.2em;
+  font-weight: 700;
+}
+
+.combo {
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: -0.01em;
+  color: #7a2e8c;
+}
+
+blockquote {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  padding: 16px 24px;
+  border-left: 4px solid #c9a227;
+  background: #f1e9dc;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  border-top: 1px solid #d8cdbb;
+  padding-top: 16px;
+}
+
+@media (max-width: 520px) {
+  .intro h1 { font-size: 2.2rem; }
+  .h-xl { font-size: 2rem; }
+}
